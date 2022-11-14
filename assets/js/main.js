@@ -34,9 +34,9 @@ class Messenger{
 }
 let messenger = new Messenger();
 // Operation area
-messenger.send('Efuwka', 'salam');
+messenger.send('Alish', 'hi');
+messenger.send('Nurana', 'salam');
 messenger.send('Tatyana', 'privet');
-messenger.send('Tatyana2', 'privet');
 
 send.addEventListener("click", ()=>{
     if(author.value==='' || text.value==='' || author.value===' ' || text.value===' '){
